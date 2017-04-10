@@ -1,0 +1,28 @@
+/*application.hbs styling*/
+.menu {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+/*lock-login.hbs*/
+.lock-login {
+    display: flex;
+    justify-content: center;
+}
+
+/*lock-control.hbs*/
+.controller-page {
+    
+}
+
+.button-controls {
+    display: flex;
+    flex-direction: column;
+}

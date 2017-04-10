@@ -7,6 +7,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('landing-page');
+  this.route('lock-login');
+  this.route('lock-control');
 });
 
 export default Router;
