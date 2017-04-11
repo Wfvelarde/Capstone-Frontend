@@ -1,14 +1,64 @@
-/*application.hbs styling*/
-.menu {
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: space-around
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html {
+    background-image: url('images/lock-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.body {
+/*application.hbs styling*/
+.menu {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*landing page styling, welcome message*/
+.home-messages {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    justify-content: center;;
+}
+
+.link1 {
+    margin-left: 15%;
+    color: black;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.link2 {
+    margin-right: 15%;
+    color: black;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.welcome {
+    font-family: 'Playfair Display', serif;
+}
+
+.message1, .message2 {
+    display: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: black;
+    text-shadow: 2px 2px 2px #333;
+    animation: fadeAndScale 2s cubic-bezier(.58, .21, .33, 1.28);
+    transform-origin: center bottom;
+}
+
+@keyframes fadeAndScale {
+    from {
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
 }
 
 /*lock-login.hbs*/
@@ -18,9 +68,6 @@
 }
 
 /*lock-control.hbs*/
-.controller-page {
-    
-}
 
 .button-controls {
     display: flex;

@@ -1,18 +1,13 @@
 <div class="container">
     <div class="menu">
-            {{#link-to 'lock-control'}}
-                Controller
-            {{/link-to}}
-            {{#link-to 'index'}}
-                <h1>
-                    <em>Facekey</em>
-                </h1>
-            {{/link-to}}
-            {{#link-to 'lock-login'}}
-                Lock login
-            {{/link-to}}
+        {{#link-to 'lock-control' class="link1"}}
+            Controller
+        {{/link-to}}
+        {{#link-to 'lock-login' class="link2"}}
+            Lock login
+        {{/link-to}}  
     </div>
-    <div class="body">
+    <div class="content">
         {{outlet}}
     </div>
 </div>
