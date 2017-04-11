@@ -1,7 +1,11 @@
-<div>
-    <h1>This is the lock login page</h1>
-    <form class="lock-login">
-        <input type="text" placeholder="username">
-        <input type="password" placeholder="password">
+<div class="lock-login">
+    <form class="pure-form">
+        <fieldset class="pure-group">
+            <input type="text" class="pure-input-1-2" placeholder="Username">
+            <input type="text" class="pure-input-1-2" placeholder="Password">
+        </fieldset>
+        {{#link-to 'lock-control'}}
+        <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Sign in</button>
+        {{/link-to}}
     </form>
 </div>

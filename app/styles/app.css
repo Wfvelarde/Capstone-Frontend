@@ -13,13 +13,23 @@ html {
     justify-content: space-between;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 2em;
+    margin-left: 33%;
+    margin-right: 20%;
+}
+
+
+
 /*landing page styling, welcome message*/
 .home-messages {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 30%;
     width: 100%;
-    justify-content: center;;
+    justify-content: center;
 }
 
 .link1 {
@@ -63,13 +73,35 @@ html {
 
 /*lock-login.hbs*/
 .lock-login {
-    display: flex;
-    justify-content: center;
+    margin-top: 15%;
+    margin-left: 33%;
+    animation: fadeAndScale 2s cubic-bezier(.58, .21, .33, 1.28);
+    transform-origin: center bottom;
 }
 
 /*lock-control.hbs*/
 
-.button-controls {
+.controller-page {
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
+    margin-left: 25%;
+    max-width: 50%;
+    animation: fadeAndScale 2s cubic-bezier(.58, .21, .33, 1.28);
+    transform-origin: center bottom;
+}
+
+.controller-label {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+}
+
+#lock, #unlock {
+    font-size: 4em;
+}
+
+#lock-button {
+    margin-bottom: 2em;
 }

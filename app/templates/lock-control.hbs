@@ -1,11 +1,9 @@
 <div class="controller-page">
-            <h2>Lock Controls</h2>
-            <p>This is the dope page that wil control the lock</p>
-        <div class="button-controls">
-            <button>OPEN</button>
-            <button>CLOSE</button>
-        </div>
-    {{#link-to 'lock-control'}}
-        Logout
-    {{/link-to}}
+    <h2 class="controller-label">Lock Controls</h2>
+    {{#status-change-locked}}
+    <button id="lock-button" class="button-xlarge pure-button pure-button-primary"><i id="lock" class="fa fa-lock" aria-hidden="true"></i></button>
+    {{/status-change-locked}}
+    {{#status-change-unlocked}}
+    <button id="unlock-button" class="button-xlarge pure-button pure-button-primary"><i id="unlock" class="fa fa-unlock" aria-hidden="true"></i></button>
+    {{/status-change-unlocked}}
 </div>
