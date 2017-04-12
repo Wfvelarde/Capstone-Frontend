@@ -1,8 +1,17 @@
 <div class="home-messages">
     <div class="message1">
-        <h1 class="welcome">Welcome to Facekey!</h1>
+        <div class="message-position">
+            <h1 class="welcome">Welcome to Facekey!</h1>
+        </div>
     </div> 
     <div class="message2">
-        <h1 class="welcome">Click lock login to get started.</h1>
+        <div class="message-position">
+            <h1 class="welcome">Click the key to get started.</h1>
+        </div>
     </div>
+        {{#link-to 'lock-login'}}
+            <button class="key-button"><i class="fa fa-key" aria-hidden="true"></i></button>
+        {{/link-to}}
 </div>
+
+

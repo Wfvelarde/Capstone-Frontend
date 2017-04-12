@@ -1,17 +1,19 @@
 <div class="container">
     <div class="menu">
         {{#link-to 'lock-control' class="link1"}}
-            Controller
+            Menu
         {{/link-to}}
         {{#link-to 'lock-login' class="link2"}}
-            Lock login
+            <i class="fa fa-user" aria-hidden="true"></i>
         {{/link-to}}  
     </div>
     <div class="content">
         {{outlet}}
     </div>
     <footer class="footer">
-        <i class="fa fa-github-square" aria-hidden="true">/wfvelarde</i>
-        <i class="fa fa-linkedin-square" aria-hidden="true">/in/wfvelarde</i>
+        <div class="social-icons">
+            <div><i class="fa fa-github-square" aria-hidden="true">/wfvelarde</i></div>
+            <div><i class="fa fa-linkedin-square" aria-hidden="true">/in/wfvelarde</i></div>
+        </div>
     </footer>
 </div>
