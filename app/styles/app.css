@@ -189,8 +189,8 @@ html {
 
 .controller-page {
     display: flex;
-    justify-content: center;
-    margin: 10%;
+    justify-content: space-around;
+    margin: 12%;
     animation: fadeAndScale 2s cubic-bezier(.58, .21, .33, 1.28);
     transform-origin: center bottom;
 }
@@ -231,8 +231,6 @@ html {
 	text-decoration:none;
 	text-shadow:0px -1px 0px #2b665e;
     width: 30vw;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 #lock-button:hover, #unlock-button:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
