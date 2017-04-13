@@ -79,7 +79,7 @@ html {
 }
 
 .link1 {
-    color: black;
+    color: white;
     font-size: 2em;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
@@ -88,7 +88,7 @@ html {
 
 .link2 {
     margin-right: 1em;
-    color: black;
+    color: white;
     font-size: 2em;
     font-family: 'Playfair Display', serif;
 }
@@ -106,7 +106,7 @@ html {
     display: none;
     font-family: 'Playfair Display', serif;
     font-size: 2em;
-    color: black;
+    color: white;
     text-shadow: 2px 2px 2px #333;
     animation: fadeAndScale 2s cubic-bezier(.58, .21, .33, 1.28);
     transform-origin: center bottom;
@@ -126,6 +126,7 @@ html {
 .social-icons {
     margin-right: 1em;
     margin-bottom: 0.5em;
+	color: white;
 }
 
 /*lock-login.hbs*/
@@ -159,7 +160,7 @@ html {
 	border:1px solid #566963;
 	display:inline-block;
 	cursor:pointer;
-	color: black;
+	color: #CE9178;
 	 font-family: 'Playfair Display', serif;
 	font-size: 2em;
 	font-weight:bold;
@@ -224,7 +225,7 @@ html {
 	border:1px solid #566963;
 	display:inline-block;
 	cursor:pointer;
-	color: black;
+	color: #CE9178;
 	font-size: 2em;
 	font-weight:bold;
 	padding:11px 23px;
