@@ -191,7 +191,7 @@ html {
 .controller-page {
     display: flex;
     justify-content: space-around;
-    margin: 12%;
+    margin: 16%;
     animation: fadeAndScale 2s cubic-bezier(.58, .21, .33, 1.28);
     transform-origin: center bottom;
 }
